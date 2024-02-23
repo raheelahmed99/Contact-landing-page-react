@@ -1,0 +1,32 @@
+/* Global CSS */
+.header{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    margin: 20px 0px 0px 100px;
+}
+.navbar{
+    display: flex;
+    margin-right: 50px;
+
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li {
+    display: inline;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0px 8px;
+    margin-right: 50px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #000;
+}

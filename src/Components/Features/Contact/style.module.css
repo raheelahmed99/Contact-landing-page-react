@@ -1,0 +1,47 @@
+
+.descriptionSec{
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    margin-left: 220px;
+    margin-top: 30px
+}
+.formSec{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   margin-top: 100px;
+   margin-left: 50px;
+
+}
+.inputWrapper {
+    position: relative;
+  }
+  
+  input, textarea {
+    position: relative;
+    width: 400px;
+    margin: 10px;
+    line-height: 5ex;
+    border: 1px solid #000;
+  }
+  
+  label {
+    position: absolute;
+    top: 0.2ex;
+    z-index: 1;
+    left: 2em;
+    background-color: white;
+    padding: 0 5px;
+    font-size: 14px;
+  }
+.sideImageSec img{
+    height: 530px;
+    width: 600px;
+    margin-left: 100px;
+}
